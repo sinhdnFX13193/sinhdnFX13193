@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Trirong", serif;
+    
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.banner{
+    background-image: url(Image/hinh-anh-nha-trang-7.jpg);
+   background-size: cover;
+   height: 700px;
+
+} 
+#content{
+    background-color: rgb(235, 186, 114);
+}
+#menu{
+    background-color: rgb(240, 208, 106);
+    padding-left: 38px;
+
+    }
+ #footer{
+     background-color: gray;
+     padding: 1cm;
+ }   
+
+
+@media only screen and (max-width:767px){
+    /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;}
+}
+
+@media only screen and (min-width:768px) and (max-width:911px){
+
+    /* For table: */
+#footer{
+    background-color: aquamarine;
+}
+
+}
+@media only screen and (min-width:992px){
+    /* For desktop: */
+.container-fluid{
+    margin: 0px auto;
+    max-width: 1380px;
+    
+    }
+
+
